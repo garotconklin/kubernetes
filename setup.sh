@@ -42,4 +42,4 @@ minikube addons open heapster
 kubectl delete service hello-node; kubectl delete deployment hello-node
 docker rmi hello-node:v1 hello-node:v2 -f
 minikube stop
-  557  eval $(minikube docker-env -u)
+eval $(minikube docker-env -u)
